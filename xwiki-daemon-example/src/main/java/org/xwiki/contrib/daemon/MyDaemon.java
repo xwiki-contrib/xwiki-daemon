@@ -24,7 +24,6 @@ import javax.inject.Singleton;
 
 import org.slf4j.Logger;
 import org.xwiki.component.annotation.Component;
-import org.xwiki.component.phase.Initializable;
 import org.xwiki.component.phase.InitializationException;
 
 /**
@@ -32,7 +31,7 @@ import org.xwiki.component.phase.InitializationException;
  */
 @Component
 @Singleton
-public class MyDaemon extends AbstractDaemon implements Initializable
+public class MyDaemon extends AbstractDaemon
 {
     private boolean running;
 
