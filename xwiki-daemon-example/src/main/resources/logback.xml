@@ -1,0 +1,19 @@
+<configuration>
+
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- Direct log messages to stdout -->
+    <Target>System.out</Target>
+    <encoder>
+      <pattern>%d [%t] %-5p %-30.30c{2} - %m %n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- Log Daemon activities -->
+  <logger name="org.xwiki.contrib.daemon" level="info"/>
+
+  <!-- By default everything that is of severity WARN, ERROR or FATAL is logged to the console. -->
+  <root level="warn">
+    <appender-ref ref="stdout"/>
+  </root>
+
+</configuration>
