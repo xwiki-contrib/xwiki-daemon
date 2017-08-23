@@ -9,7 +9,7 @@
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>xwiki-daemon</artifactId>
   <packaging>pom</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>2.0</version>
   <modules>
     <module>xwiki-daemon-api</module>
     <module>xwiki-daemon-example</module>
@@ -26,7 +26,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/xwiki-daemon.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/xwiki-daemon.git</developerConnection>
     <url>https://github.com/xwiki-contrib/xwiki-daemon/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>xwiki-daemon-2.0</tag>
   </scm>
   <distributionManagement>
     <repository>
