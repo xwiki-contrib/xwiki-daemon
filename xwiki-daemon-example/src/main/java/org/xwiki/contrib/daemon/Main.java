@@ -20,10 +20,20 @@
 package org.xwiki.contrib.daemon;
 
 /**
+ * An example application, that create and start a daemon.
+ *
  * @version $Id: $
  */
-public class Main
+public final class Main
 {
+    private Main()
+    {
+    }
+
+    /**
+     * Entre-point of the application.
+     * @param args the arguments of the application
+     */
     public static void main(String[] args)
     {
         try {

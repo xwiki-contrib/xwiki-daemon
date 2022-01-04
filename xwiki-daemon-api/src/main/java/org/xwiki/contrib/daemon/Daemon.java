@@ -22,15 +22,29 @@ package org.xwiki.contrib.daemon;
 import org.xwiki.component.annotation.Role;
 
 /**
+ * A daemon that you can start, stop and join.
+ *
  * @version $Id: $
  */
 @Role
 public interface Daemon extends Runnable
 {
+    /**
+     * Start the daemon.
+     * @throws Exception if an error happens
+     */
     void start() throws Exception;
 
+    /**
+     * Stop the daemon.
+     * @throws Exception if an error happens
+     */
     void stop() throws Exception;
 
+    /**
+     * Join the daemon's thread.
+     * @throws Exception if an error happens
+     */
     void join() throws Exception;
 
 }

@@ -101,11 +101,17 @@ public abstract class AbstractDaemon implements Daemon, Initializable
         }
     }
 
+    /**
+     * @return the name of the daemon
+     */
     public String getDaemonName()
     {
         return daemonName;
     }
 
+    /**
+     * @param daemonName the name of the daemon
+     */
     public void setDaemonName(String daemonName)
     {
         this.daemonName = daemonName;
