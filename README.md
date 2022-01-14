@@ -5,8 +5,8 @@ Library to write a daemon service using XWiki components
 
 See `xwiki-daemon-example` to see how it works.
 
-* Project Lead: [Guillaume Delhumeau](<http://www.xwiki.org/xwiki/bin/view/XWiki/gdelhumeau) 
-* [Issue Tracker](http://jira.xwiki.org/browse/DAEMON)
-* Communication: [Mailing List](http://dev.xwiki.org/xwiki/bin/view/Community/MailingLists), [IRC](http://dev.xwiki.org/xwiki/bin/view/Community/IRC)
+* Project Lead: [Guillaume Delhumeau](https://www.xwiki.org/xwiki/bin/view/XWiki/gdelhumeau) 
+* [Issue Tracker](https://jira.xwiki.org/browse/DAEMON)
+* Communication: [Mailing List](https://dev.xwiki.org/xwiki/bin/view/Community/MailingLists), [IRC](https://dev.xwiki.org/xwiki/bin/view/Community/IRC)
 * License: LGPL 2.1.
-* Continuous Integration Status: [![Build Status](http://ci.xwiki.org/buildStatus/icon?job=Contrib%20-%20XWiki%20Daemon Library)](http://ci.xwiki.org/job/Contrib%20-%20XWiki%20Daemon%20Library/)
+* Continuous Integration Status: [![Build Status](https://ci.xwiki.org/buildStatus/icon?job=XWiki+Contrib%2Fxwiki-daemon%2Fmaster)](https://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/xwiki-daemon/job/master/)
